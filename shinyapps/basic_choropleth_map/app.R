@@ -51,11 +51,11 @@ server <- (function(input, output, session) {
   
   output$period <- renderText({
     req(input$category)
-    paste("during November 2015")
+    paste("during November 2015 go fuck yerself")
   })
   
-  lat <- 53.442788
-  lng <- -2.244708
+  lat <- 38.883530
+  lng <- -94.818237
   zoom <- 11
   
   output$map <- renderLeaflet({
